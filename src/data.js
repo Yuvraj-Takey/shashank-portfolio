@@ -23,19 +23,19 @@ const achievementArr = [
 
 const reachOutArr = [
     {
-        heading: "Bombay",
-        subHeading: "Powai",
-        description:"Lorem ipsum elcazo dounno, 123/C Street ABC. Lorem ipsum elcazo dounno, 123/C Street ABC"
+        heading: "India",
+        subHeading: "Amravati-Nagpur, Maharashtra",
+        description:"Phone no: 9028665919"
     },
     {
         heading: "India",
-        subHeading: "Punjab",
-        description:"Lorem ipsum elcazo dounno, 123/C Street ABC"
+        subHeading: "Pune, Maharashtra",
+        description:"Phone no: 9028665919"
     },
     {
-        heading: "Chhattisgarh",
-        subHeading: "Raipur",
-        description:"Lorem ipsum elcazo dounno, 123/C Street ABC"
+        heading: "India",
+        subHeading: "Mumbai, Maharashtra",
+        description:"Phone no: 9028665919"
     }
 ]
 
