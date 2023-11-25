@@ -17,7 +17,7 @@ const achievementArr = [
     {
         headerVal:"Likes",
         imgVal:"/assets/youtube-col-2.png",
-        cntVal:"40M+"
+        cntVal:"50M+"
     }
 ]
 
