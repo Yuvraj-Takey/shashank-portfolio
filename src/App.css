@@ -1,0 +1,166 @@
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+.flex-wrap{
+  flex-wrap: wrap ;
+}
+.flex1{
+  flex: 1;
+}
+.aic{
+  justify-content: center;
+  align-items: center;
+}
+.sp-bw{
+  justify-content: space-around;
+}
+.width-80{
+  max-width: 80%;
+}
+.m-auto{
+  margin: 0 auto;
+}
+.p-20{
+  padding: 20px;
+}
+.gap-10{
+  gap: 20px;
+}
+.gap-5{
+  gap: 10px;
+}
+.gap-20{
+  gap: 10%;
+}
+.m-pointer{
+  cursor: pointer;
+}
+.text-center{
+  text-align: center;
+}
+.spacer{
+  height: 10vh;
+}
+.invisible-nav{
+  height: 77px;
+}
+.bg-offwhite{
+  background-color: rgb(240, 236, 236);
+}
+.bg-more-offwhite{
+  background-color: rgb(233, 227, 227);
+
+}
+.bor-rad-5{
+  border-radius: 10px;
+}
+.bor-2{
+  border: 2px solid rgb(232, 218, 218);
+}
+.p-bot-40{
+  padding-bottom: 40px;
+}
+.imgGal{
+  width: 190px;
+  border-radius: 12px;
+  height: 115px;
+  object-fit: cover;
+  transition: all 0.2s ease-in;
+}
+.imgGal:hover{
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  transform: scale(1.05) ;
+}
+.imgBio{
+  max-width: 100%;
+  /* max-height: 100%; */
+}
+.text-justify{
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+/* images responsive */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  /* Set the desired aspect ratio */
+  /* For example, for a 4:3 aspect ratio, use a padding-top of 75% (3/4) */
+  padding-top: 15%; 
+  overflow: hidden;
+}
+
+.image-container::before {
+  content: "";
+  display: block;
+  padding-bottom: 15%; /* Inverse of the aspect ratio to maintain the space for the image */
+}
+
+.img-hero-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust to cover or contain, as needed */
+}
+.img-header-su{
+  top: 36%;
+  mix-blend-mode:luminosity;
+  position: absolute;
+  width: 30%;
+  left: 2%;
+  z-index: 2;
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  width: 100vw;
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: calc(100% - 20px);
+  width: 100vw;
+  background-color:rgba(228, 219, 219, 0.423);
+  z-index: 100;
+  /* Add other styling as needed */
+}
+
+
+/* flex-row sp-bw navBar width-80 m-auto p-20  */
+.navbar-content {
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%; /* Ensure it takes the full width */
+  margin: 0 auto; /* Center the content */
+}
+
+
+
+
+@media (max-width: 767px) {
+  .imgGal {
+    width: 140px; /* Width for mobile devices */
+  }
+  .navbar-content{
+    font-size: smaller;
+  }
+}
