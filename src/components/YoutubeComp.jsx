@@ -14,8 +14,8 @@ const YoutubeComp = () => {
     },
     {
       title:
-        "हवा मैं हुआ flight का Engine खराब 😵‍💫 | India to Thailand 🥹 *exposed",
-      src: "https://www.youtube.com/embed/bcTu1C9nduE",
+        "Vidarbha's famous Creator Meet Up |  Something exciting is coming",
+      src: "https://www.youtube.com/embed/gfq3IOI8ug0",
     },
   ];
   return (
