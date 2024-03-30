@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 import Bio from "./components/Bio";
 import Footer from "./components/Footer";
+import { getFollowersServ } from "./services";
 
 const Spacer = () => {
   return <div className="spacer"></div>;
@@ -33,6 +34,8 @@ function App() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  useEffect(()=> getFollowersServ() )
 
   return (
     <div className="App">
