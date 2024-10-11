@@ -24,11 +24,11 @@ const YoutubeComp = () => {
       <section class="flex-row width-80 sp-bw m-auto flex-wrap">
         {arrVideos.map(({ title, src }) => (
           <iframe
-            // min-width="22%"
+            //min-width="22%"
             src={src}
             title={title}
-            frameborder="0"
-            className="p-20"
+            frameborder=""
+                className="portfolio-video p-20"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>

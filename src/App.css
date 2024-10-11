@@ -40,9 +40,34 @@
 .m-pointer{
   cursor: pointer;
 }
-.text-center{
-  text-align: center;
+.portfolio-video {
+    width: 350px;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    overflow: hidden; /* Clip content if it overflows */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+    background-color: #f5f5f5; /* Light background for the video frame */
+    position: relative;
+    overflow: hidden;
 }
+
+.portfolio-video:hover {
+  transform: scale(1.1) rotate(5deg); /* Scale and rotate slightly on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #f0f0f0; /* Change background color slightly on hover */
+}
+/* ------------------------ Page Section Headings ------------------------ */
+.text-center {
+    text-align: center;
+    /* Adjust these values to control the space */
+    margin-bottom: 30px; /* Increase space below the text */
+    font-size: 26px; /* Adjust font size if needed */
+}
+
+/* ------------------------ space before each Heading ------------------------ */
+
 .spacer{
   height: 10vh;
 }
@@ -65,18 +90,35 @@
 .p-bot-40{
   padding-bottom: 40px;
 }
-.imgGal{
+
+/* ------------------------ Pic Grid ------------------------ */
+.imgGal {
   width: 190px;
-  border-radius: 12px;
+  border-radius: 3px;
   height: 115px;
   object-fit: cover;
-  transition: all 0.2s ease-in;
+  transition: all 0.3s ease-in;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
 }
-.imgGal:hover{
+
+.imgGal:hover {
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
-  transform: scale(1.05) ;
+  transform: scale(1.50) ;
+  background-color: #f0f0f0;
+  opacity: 0.99;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+.imgGal:active {
+  /* Add styles for when the image is clicked and held */
+  transform: scale(3.0);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+  opacity: 1;
+
+}
+
 .imgBio{
   max-width: 100%;
   /* max-height: 100%; */
@@ -120,7 +162,7 @@
   z-index: 2;
 }
 
-
+/* ------------------------  ------------------------ */
 
 .navbar {
   display: flex;
@@ -154,8 +196,6 @@
 }
 
 
-
-
 @media (max-width: 767px) {
   .imgGal {
     width: 140px; /* Width for mobile devices */
@@ -163,4 +203,39 @@
   .navbar-content{
     font-size: smaller;
   }
+}
+
+/* ------------------------ Contact US ------------------------ */
+
+.contact-section {
+    padding: 80px;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+.reach-card {
+  background-color: #fff; /* White card background */
+  border: 1px solid #ddd; /* Light border */
+  padding: 40px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer; /* Indicate clickability */
+}
+
+.reach-card:hover {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle hover shadow */
+}
+
+.reach-card h3 {
+  font-size: 18px; /* Heading 1st - Adjust heading size as needed */
+  margin-bottom: 10px; /* Spacing after heading */
+}
+
+.reach-card .subheading {
+  font-size: 16px; /* Adjust subheading size as needed */
+  color: #777; /* Muted color for subheading */
+  margin-bottom: 5px; /* Spacing after subheading */
+}
+
+/* ------------------------ Footer ------------------------ */
+.text-foot {
+    text-align: center;
 }

@@ -1,13 +1,15 @@
+// -------------------------------------------------------------------------------
+
 const achievementArr = [
     {
-        headerVal:"Followers",
+        headerVal:"Likes",
         imgVal:"/assets/heart-col.png",
-        cntVal:"200K+"
+        cntVal:"400K+"
     },
     {
         headerVal:"Subscribers",
         imgVal:"/assets/insta-col.png",
-        cntVal:"260K+"
+        cntVal:"500K+"
     },
     {
         headerVal:"Reach",
@@ -15,11 +17,13 @@ const achievementArr = [
         cntVal:"30M+"
     },
     {
-        headerVal:"Likes",
+        headerVal:"Followers",
         imgVal:"/assets/youtube-col-2.png",
         cntVal:"50M+"
     }
 ]
+
+// -------------------------------------------------------------------------------
 
 const reachOutArr = [
     {
@@ -39,6 +43,8 @@ const reachOutArr = [
     }
 ]
 
+// -------------------------------------------------------------------------------
+
 const imgGalleryArr = [
     "/imgGal/sBH (1).png",
     "/imgGal/sBH (2).png",
@@ -50,6 +56,17 @@ const imgGalleryArr = [
     "/imgGal/sBH (8).png",
     "/imgGal/sBH (9).png",
     "/imgGal/sBH (10).png",
+    "/imgGal/sBH (1) - Copy.png",
+    "/imgGal/sBH (2) - Copy.png",
+    "/imgGal/sBH (3) - Copy.png",
+    "/imgGal/sBH (4) - Copy.png",
+    "/imgGal/sBH (5) - Copy.png",
+    "/imgGal/sBH (6) - Copy.png",
+    "/imgGal/sBH (7) - Copy.png",
+    "/imgGal/sBH (8) - Copy.png",
+    "/imgGal/sBH (9) - Copy.png",
+    "/imgGal/sBH (10) - Copy.png",
+    "/imgGal/ShankBox-Hero.png"
 ]
 
 export {achievementArr, reachOutArr, imgGalleryArr}

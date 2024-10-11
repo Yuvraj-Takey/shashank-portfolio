@@ -36,13 +36,13 @@ code {
   width: 0.8rem;
 }
 
+/*
 ::-webkit-scrollbar-track {
   background-color: var(--secondary);
-}
+}*/
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--accent);
-  
+    background-color: #e0e0e0;
 }
 ::-webkit-scrollbar:hover{
   cursor: pointer;

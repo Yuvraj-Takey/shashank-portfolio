@@ -9,7 +9,8 @@ const Gallery = ({comp}) => {
     return(
         <React.Fragment>
         <h2 className="text-center p-20">Gallery</h2>
-        <div className="flex-row width-80 m-auto aic gap-10 flex-wrap">
+            {/*<div className="flex-row width-80 m-auto aic gap-10 flex-wrap">*/}
+        <div className="flex-row width-100 m-auto aic gap-2 flex-wrap">
             {
                 data.map(i=> 
                     <img className="imgGal" src={i} alt={i} />
