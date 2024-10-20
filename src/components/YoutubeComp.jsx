@@ -14,8 +14,8 @@ const YoutubeComp = () => {
     },
     {
       title:
-        "Vidarbha's famous Creator Meet Up |  Something exciting is coming",
-      src: "https://www.youtube.com/embed/gfq3IOI8ug0",
+        "Girlfriend नाही Bayko  | Shashank Udakhe | Kiran Udakhe | Harshraj | new music video #marathisong",
+      src: "https://www.youtube.com/embed/Hz0cA_3SumQ",
     },
   ];
   return (

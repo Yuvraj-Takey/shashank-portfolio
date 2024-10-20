@@ -7,7 +7,7 @@ const achievementArr = [
         cntVal:"400K+"
     },
     {
-        headerVal:"Subscribers",
+        headerVal:"Followers",
         imgVal:"/assets/insta-col.png",
         cntVal:"500K+"
     },
@@ -17,9 +17,9 @@ const achievementArr = [
         cntVal:"30M+"
     },
     {
-        headerVal:"Followers",
+        headerVal:"Subscribers",
         imgVal:"/assets/youtube-col-2.png",
-        cntVal:"50M+"
+        cntVal:"50M++"
     }
 ]
 
@@ -29,16 +29,6 @@ const reachOutArr = [
     {
         heading: "India",
         subHeading: "Amravati-Nagpur, Maharashtra",
-        description:"Phone no: 9028665919"
-    },
-    {
-        heading: "India",
-        subHeading: "Pune, Maharashtra",
-        description:"Phone no: 9028665919"
-    },
-    {
-        heading: "India",
-        subHeading: "Mumbai, Maharashtra",
         description:"Phone no: 9028665919"
     }
 ]
@@ -66,7 +56,8 @@ const imgGalleryArr = [
     "/imgGal/sBH (8) - Copy.png",
     "/imgGal/sBH (9) - Copy.png",
     "/imgGal/sBH (10) - Copy.png",
-    "/imgGal/ShankBox-Hero.png"
+    "/imgGal/ShankBox-Hero.png",
+    "/imgGal/DSC03330.JPG"
 ]
 
 export {achievementArr, reachOutArr, imgGalleryArr}
